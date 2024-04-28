@@ -4,16 +4,30 @@
 }
 
 body{
-    margin: 40px;
+    margin-right: 72px;
+    margin-left: 72px;
+    background-color: #F2F9FE;
 }
+
+
 nav{
-    border: 1px solid;
+  
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    
+}
+
+.mode a{
+    text-decoration: none;
 }
 
 .logo, .mode{
     padding: 15px;
+    
 }
 
 ul{
@@ -26,53 +40,81 @@ ul{
 .links a{
     margin-right: 35px;
     text-decoration: none;
+    color: #111729;
 }
 
 
 .container{
-    border: 1px solid;
+    
     display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    
+}
+
+
+
+
+h5{
+    font-size: small;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 h1{
     color: #111729;
-    font-size: 55px;
-    font-weight: 900;
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin: 0;
 }
 
 h3{
     color: #909193;
-    font-size: medium;
+    font-size: 1.125rem;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
-h5{
-    font-size: small;
-}
 
 
 button{
-    padding: 10px 20px;
+    padding: 15px 30px;
+    font-size: 1rem;
     background-color: #2A4DD0;
-    border-color: #2A4DD0;
+    border: none;
     border-radius: 5px;
     color: white;
     margin-right: 10px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #demo{
     text-decoration: underline;
     color: #2A4DD0;
     font-weight: 600;
+    margin-left: 20px;
+
+    
 }
 
 .requirements{
+    display: flex;
     margin-top: 35px;
+    align-items: center;
+    text-align: center;
+    font-size: 0.875rem;
+   
+}
+
+.requirements p{
+    margin-right: 20px;
+}
+
+.requirements img{
+   margin-right: 10px;
 }
 
 .image > img{
-    width: 500px;
+    width: 600px;
 }
 
